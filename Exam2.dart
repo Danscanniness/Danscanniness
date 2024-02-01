@@ -1,8 +1,8 @@
-Name: OKOYE DANIEL AMANDIANEZE
-                                        Exam_2
+//Name: OKOYE DANIEL AMANDIANEZE
+                                       // Exam_2
 
-1.	Define a Dart function that takes two parameters (int a, int b) and returns their sum. 
-ANSWER
+// 1.	Define a Dart function that takes two parameters (int a, int b) and returns their sum. 
+//ANSWER
 int addTwoNumbers(int a, int b) {
   return a + b;
 }
@@ -17,7 +17,7 @@ void main() {
 }
 
 
-2.	Write a function that calculates the factorial of a given number.
+// 2.	Write a function that calculates the factorial of a given number.
 int calculateFactorial (int n) {
   if (n == 0 || n == 1) {
     return 1;
@@ -35,7 +35,7 @@ void main() {
 
 
 
-3.	Create a function that checks if a number is prime.
+//3.	Create a function that checks if a number is prime.
 
 bool isPrime(int number) {
   if (number <= 1) {
@@ -55,18 +55,17 @@ void main() {
   int num = 13; // Replace with the desired number to check for primality
   bool isNumPrime = isPrime(num);
 
-  if (isNumPrime) {
+ if (isNumPrime) {
     print("$num is a prime number.");
   } else {
     print("$num is not a prime number.");
   }
 }
 
-4.	Implement a function that converts Celsius to Fahrenheit.
+//4.	Implement a function that converts Celsius to Fahrenheit.
 double celsiusToFahrenheit(double celsius) {
   return (celsius * 9 / 5) + 32;
 }
-
 void main() {
   double celsius = 25.0; // Replace with the desired temperature in Celsius
   double fahrenheit = celsiusToFahrenheit(celsius);
@@ -74,7 +73,7 @@ void main() {
   print("$celsius degrees Celsius is equal to $fahrenheit degrees Fahrenheit.");
 }
 
-5.	Write a Dart function that takes a string as input and returns the reversed string. Classes:
+//5.	Write a Dart function that takes a string as input and returns the reversed string. Classes:
 class StringManipulator {
   String reverseString(String inputString) {
     List<String> characters = inputString.split('');
@@ -94,7 +93,7 @@ void main() {
 }
 
 
-6.	Create a class named Person with attributes name and age. Implement a method to display the person's information.
+//6.	Create a class named Person with attributes name and age. Implement a method to display the person's information.
 class Person {
   String name;
   int age;
@@ -119,7 +118,7 @@ void main() {
 
 
 
-7.	Define a class Rectangle with attributes length and width. Implement a method to calculate the area of the rectangle.
+//7.	Define a class Rectangle with attributes length and width. Implement a method to calculate the area of the rectangle.
 
 
 class Rectangle {
@@ -142,7 +141,7 @@ void main() {
   print("Rectangle Area: $area square units");
 }
  
-8.  Implement a class Circle with a method to calculate the circumference.
+//8.  Implement a class Circle with a method to calculate the circumference.
 import 'dart:math';
 
 class Circle {
@@ -162,7 +161,7 @@ void main() {
   double circumference = myCircle.calculateCircumference();
   print("Circle Circumference: $circumference units");
 }
-9.	Create a class BankAccount with methods to deposit and withdraw money, and to check the account balance. 
+//9.	Create a class BankAccount with methods to deposit and withdraw money, and to check the account balance. 
 class BankAccount {
   double balance;
 
@@ -206,7 +205,7 @@ void main() {
  
 
 
- 10A.  Write a class Student with attributes name, age, and grade. Implement a method to determine if the student passed or failed. Function and Class Interactions 
+// 10A.  Write a class Student with attributes name, age, and grade. Implement a method to determine if the student passed or failed. Function and Class Interactions 
 class Student {
   String name;
   int age;
@@ -238,7 +237,7 @@ void main() {
 }
 
 
-10.	Define a class Calculator with methods for basic arithmetic operations (add, subtract, multiply, divide).
+//10.	Define a class Calculator with methods for basic arithmetic operations (add, subtract, multiply, divide).
 
 class Calculator {
   double add(double num1, double num2) {
@@ -280,7 +279,7 @@ void main() {
   double resultDivide = myCalculator.divide(10.0, 2.0);
   print("Division Result: $resultDivide");
 }
-11.	Implement a class Car with methods to start, stop, and check the fuel level.
+//11.	Implement a class Car with methods to start, stop, and check the fuel level.
 class Car {
   bool isRunning;
   double fuelLevel;
@@ -339,7 +338,7 @@ void main() {
   myCar.stop();
 }
 
-12.	Write a Dart program that uses a function to find the maximum element in a list of integers.
+//12.	Write a Dart program that uses a function to find the maximum element in a list of integers.
 int findMax(List<int> numbers) {
   if (numbers.isEmpty) {
     // Return an appropriate value when the list is empty
@@ -369,7 +368,7 @@ void main() {
   }
 }
  
-13. Create a class Employee with attributes name, salary, and a method to give a bonus.
+//13. Create a class Employee with attributes name, salary, and a method to give a bonus.
 class Employee {
   String name;
   double salary;
@@ -395,7 +394,7 @@ void main() {
 }
 
 
-14.	 Combine a function and a class to calculate the area of a triangle given its base and height. More Functions:
+//14.	 Combine a function and a class to calculate the area of a triangle given its base and height. More Functions:
 
 class Triangle {
   double base;
@@ -426,7 +425,7 @@ void main() {
   print("Triangle Area with base $base and height $height: $area square units");
 }
 
-15.	Write a Dart program with a function to find the square root of a given number.
+//15.	Write a Dart program with a function to find the square root of a given number.
 
 import 'dart:math';
 
@@ -450,7 +449,7 @@ void main() {
   }
 }
 
-16.  Create a function that generates a list of Fibonacci numbers up to a specified limit.
+//16.  Create a function that generates a list of Fibonacci numbers up to a specified limit.
 List<int> generateFibonacci(int limit) {
   List<int> fibonacciList = [];
   int a = 0, b = 1, nextTerm = 0;
@@ -469,7 +468,7 @@ void main() {
   print(fibonacciList);
 }
 
-17.	Implement a function to determine if a given year is a leap year.
+//17.	Implement a function to determine if a given year is a leap year.
 bool isLeapYear(int year) {
   if (year % 4 == 0) {
     // If divisible by 4
@@ -498,7 +497,7 @@ void main() {
 }
 
 
-18.	Define a recursive function to compute the factorial of a number.
+//18.	Define a recursive function to compute the factorial of a number.
 int calculateFactorial(int n) {
   if (n == 0 || n == 1) {
     return 1;
@@ -514,7 +513,7 @@ void main() {
   print("The factorial of $number is: $factorial");
 }
 
-19.	Write a function that takes a list of integers and returns a new list with only the even numbers.
+//19.	Write a function that takes a list of integers and returns a new list with only the even numbers.
 
 List<int> filterEvenNumbers(List<int> numbers) {
   List<int> evenNumbers = [];
